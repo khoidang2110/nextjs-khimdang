@@ -103,7 +103,8 @@
 }
 @media screen and (max-width: 767px) {
   .image {
-    height: 250px; /* Adjust height for smaller phone screens */
+    height: 200px; /* Adjust height for smaller phone screens */
+  
   }
   .galleryListSection{
 
@@ -115,7 +116,7 @@
 }
 .threePecent{
   padding: 0 5px;
- width: 100%;
+ width: 50%;
 
   
 }

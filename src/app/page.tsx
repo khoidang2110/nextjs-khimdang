@@ -6,11 +6,11 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main  className='px-20'>
+    <main  className='px-5'>
  
 
 
-<GalleryList projects ={projects} filterType='commercial'/>
+<GalleryList projects ={projects} filterType='commission'/>
  
    
     </main>

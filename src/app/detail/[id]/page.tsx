@@ -12,9 +12,12 @@ console.log(params.id)
 const currentAlbum = projects[Number(params.id)-1]
   return (
     <section >
-      <p className='pl-10 ml-10 uppercase opacity-70'>{currentAlbum.type}/
+       <Link href={currentAlbum.link} className="">
+      <p className='pl-10 ml-10 uppercase opacity-70'>{currentAlbum.type}   </p>
+       </Link>
 
-      </p>
+
+   
       <div className='text-center'>
       <h1 className='text-2xl pb-10'>
 {currentAlbum.title}</h1>

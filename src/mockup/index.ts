@@ -7,7 +7,7 @@ export const projects: IProject []= [
         id: 1,
         type:'archive1',
         title: "Archive",
-        
+        link:'/archive',
         description:
           " quisquam est, qui dolorem.",
 
@@ -28,8 +28,9 @@ export const projects: IProject []= [
     {
       
         id: 2,
-        type:'commercial',
+        type:'commission',
         title: "TREE TALKS",
+        link:'/commission',
         description:
           "",
         image:[
@@ -40,9 +41,9 @@ export const projects: IProject []= [
       },
       {
         id: 3,
-        type:'commercial',
+        type:'commission',
         title: "SMORE CHOLON",
-     
+        link:'/commission',
         description:
           "",
     
@@ -56,9 +57,9 @@ export const projects: IProject []= [
       },
       {
         id: 4,
-        type:'commercial',
+        type:'commission',
         title: "SILENCE SINGS",
-        
+        link:'/commission',
         description:
           "",
 
@@ -71,9 +72,9 @@ export const projects: IProject []= [
       },
       {
         id: 5,
-        type:'commercial',
+        type:'commission',
         title: "LIXI22",
-        
+        link:'/commission',
         description:
           "",
 
@@ -98,9 +99,9 @@ export const projects: IProject []= [
       ,
       {
         id: 6,
-        type:'commercial',
+        type:'commission',
         title: "LACAPH",
-        
+        link:'/commission',
         description:
           "",
 
@@ -114,9 +115,9 @@ export const projects: IProject []= [
       ,
       {
         id: 7,
-        type:'commercial',
+        type:'commission',
         title: "EVERYHALF TUXUONG",
-        
+        link:'/commission',
         description:
           "",
 
@@ -131,9 +132,9 @@ export const projects: IProject []= [
       ,
       {
         id: 8,
-        type:'commercial',
+        type:'commission',
         title: "COLLECTORS",
-        
+        link:'/commission',
         description:
           "",
 
@@ -160,9 +161,9 @@ export const projects: IProject []= [
       ,
       {
         id: 9,
-        type:'commercial',
+        type:'commission',
         title: "EVERYHALF NGOVANNAM",
-        
+        link:'/commission',
         description:
           "",
 
@@ -180,9 +181,9 @@ export const projects: IProject []= [
       ,
       {
         id: 10,
-        type:'commercial',
+        type:'commission',
         title: "MONO KV",
-        
+        link:'/commission',
         description:
           "",
 
@@ -202,7 +203,7 @@ export const projects: IProject []= [
         id: 11,
         type:'exhibition',
         title: "TRUPHU SHOWCASE",
-        
+        link:'/exhibition',
         description:
           "",
 
@@ -227,7 +228,7 @@ export const projects: IProject []= [
         id: 12,
         type:'exhibition',
         title: "LOFFCICEL",
-        
+        link:'/exhibition',
         description:
           "",
 
@@ -242,7 +243,7 @@ export const projects: IProject []= [
         id: 13,
         type:'exhibition',
         title: "SAIGON GOLDSIGN",
-        
+        link:'/exhibition',
         description:
           "",
 
@@ -265,7 +266,7 @@ export const projects: IProject []= [
         id: 14,
         type:'exhibition',
         title: "The First Solo Show",
-        
+        link:'/exhibition',
         description:
           "The First Solo Show -  Khimdang 2023",
 
@@ -298,7 +299,7 @@ export const projects: IProject []= [
         id: 15,
         type:'archive',
         title: "WORDPLAY05",
-        
+        link:'/archive',
         description:
           "",
 
@@ -316,7 +317,7 @@ export const projects: IProject []= [
         id: 16,
         type:'archive',
         title: "WORDPLAY04",
-        
+        link:'/archive',
         description:
           "",
 
@@ -343,7 +344,7 @@ export const projects: IProject []= [
         id: 17,
         type:'archive',
         title: "WORDPLAY03",
-        
+        link:'/archive',
         description:
           "",
 
@@ -361,7 +362,7 @@ export const projects: IProject []= [
         id: 18,
         type:'archive',
         title: "WORDPLAY02",
-        
+        link:'/archive',
         description:
           "",
 
@@ -382,7 +383,7 @@ export const projects: IProject []= [
         id: 19,
         type:'archive',
         title: "WORDPLAY01",
-        
+        link:'/archive',
         description:
           "",
 
@@ -400,10 +401,10 @@ export const projects: IProject []= [
       }
       ,
       {
-        id: 19,
+        id: 20,
         type:'archive',
         title: "TRUPHU",
-        
+        link:'/archive',
         description:
           "",
 
@@ -421,10 +422,10 @@ export const projects: IProject []= [
       }
       ,
       {
-        id: 19,
+        id: 21,
         type:'archive',
         title: "HINOAIO",
-        
+        link:'/archive',
         description:
           "",
 
@@ -448,10 +449,10 @@ export const projects: IProject []= [
       }
       ,
       {
-        id: 20,
+        id: 22,
         type:'archive',
         title: "HELL GOOD",
-        
+        link:'/archive',
         description:
           "",
 
@@ -466,10 +467,10 @@ export const projects: IProject []= [
       }
       ,
       {
-        id: 21,
+        id: 23,
         type:'archive',
         title: "FOREVER TIGER 03",
-        
+        link:'/archive',
         description:
           "",
 
@@ -486,10 +487,10 @@ export const projects: IProject []= [
       }
       ,
       {
-        id: 22,
+        id: 24,
         type:'archive',
         title: "FOREVER TIGER 02",
-        
+        link:'/archive',
         description:
           "",
 
@@ -505,10 +506,10 @@ export const projects: IProject []= [
       }
       ,
       {
-        id: 23,
+        id: 25,
         type:'archive',
         title: "5Y EBW",
-        
+        link:'/archive',
         description:
           "",
 
@@ -520,6 +521,45 @@ export const projects: IProject []= [
             '/images/tag2/hinh245.jpg',
             '/images/tag2/hinh246.jpg',
          
+      
+           
+           
+         ]
+      }
+      ,
+      {
+        id: 26,
+        type:'commission',
+        title: "COCACOLA 2023",
+        link:'/archive',
+        description:
+          "",
+
+          image:[
+            '/images/tag2/hinh251.jpg',
+            '/images/tag2/hinh252.jpg',
+            '/images/tag2/hinh253.jpg',
+            '/images/tag2/hinh254.jpg',
+         
+      
+           
+           
+         ]
+      }
+      ,
+      {
+        id: 27,
+        type:'commission',
+        title: "JAGERMEISTER 2023",
+        link:'/archive',
+        description:
+          "Jagermeister Andree Right Hand x SMO",
+
+          image:[
+            '/images/tag2/hinh261.jpg',
+            '/images/tag2/hinh262.jpg',
+            '/images/tag2/hinh263.jpg',
+     
       
            
            

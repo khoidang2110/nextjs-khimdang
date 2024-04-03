@@ -5,6 +5,7 @@ import styles from "./styles.module.css";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
+import Menu from "../menu/Menu";
 const Header: React.FC = () => {
   const pathname = usePathname();
   console.log(pathname);
@@ -40,11 +41,18 @@ console.log(windowWidth)
 
   return (
     <header
-      className={` w-full bg-white text-prim transition-all duration-300  ${
-        isVisible ? "opacity-100" && "h-72" : "opacity-0"
-      }`}
+      
     >
-  
+      <div className={` w-full bg-white text-prim transition-all duration-300  ${
+        isVisible ? "opacity-100" && (windowWidth < 900 ? "" : "h-72") : "opacity-0"
+      }`}>
+
+
+
+        
+      {windowWidth < 900 ?  <div className={styles.menuButton}>
+      <Menu/>
+      </div>: ""}
 <div className="flex justify-center py-5">
 {windowWidth < 900 ? <Image
         width={100}
@@ -59,6 +67,9 @@ console.log(windowWidth)
         />}
 
 </div>
+
+{windowWidth > 900 ? 
+
       <nav>
         <ul className={styles.headerUl}>
           <li
@@ -72,7 +83,7 @@ console.log(windowWidth)
             className={pathname == "/" ? styles.tabActive : styles.tabInActive}
           >
             <Link href="/">
-              COMMERCIAL {windowWidth < 900 ? "" : "/ COMMISSIONED WORK"}
+            COMMISSION
             </Link>
           </li>
           <li
@@ -93,6 +104,9 @@ console.log(windowWidth)
           </li>
         </ul>
       </nav>
+      :""}
+      </div>
+ 
     </header>
   );
 };

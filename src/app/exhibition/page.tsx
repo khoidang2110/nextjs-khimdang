@@ -7,7 +7,7 @@ import { projects } from '@/mockup'
 
 export default function Exhibition() {
   return (
-    <main  className='px-20'>
+    <main  className='px-5'>
  
  
 

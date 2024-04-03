@@ -40,6 +40,12 @@ font-weight:200
   padding-left: 20px;
   padding-right: 20px;
 }
+.menuButton{
+  position: fixed;
+  z-index: 999;
+  padding-top: 10px;
+  padding-left: 10px;
+}
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .fortyDeg{
     left: -150px;

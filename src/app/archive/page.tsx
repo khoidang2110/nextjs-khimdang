@@ -24,7 +24,7 @@ const currentAlbum = projects[Number(0)]
 //       </div>
 
 //     </section>
-        <main  className='px-20'>
+        <main  className='px-5'>
  
  
 
