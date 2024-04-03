@@ -6,7 +6,7 @@ const AboutImg: React.FC = () => {
         <Image
         width={1000}
         height={600}
-        src='/images/tag1/about.jpg'
+        src='/images/tag2/about.jpg'
         alt='aboutT'
         />
               {/* <img src='/images/about.jpg' alt="about" style={{width: '1000px'}} /> */}
