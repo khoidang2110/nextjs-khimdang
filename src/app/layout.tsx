@@ -1,11 +1,14 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Roboto } from 'next/font/google'
 import "./globals.css";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
 
 // const inter = Inter({ subsets: ["latin"] });
-
+const roboto = Roboto({
+  weight: '700',
+  subsets: ['latin'],
+})
 export const metadata: Metadata = {
   title: "KHIMDANG",
   description: "illustrator, khiim, khiim dang",
@@ -18,23 +21,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={roboto.className}>
       <head>
-<div>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com"  />
-  <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
 
-<div>
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Sawarabi+Gothic&display=swap" rel="stylesheet" />
-</div>
-
-</div>
 
       </head>
-      <body className='sawarabi-gothic-regular bg-white'>
+      <body className=' bg-white'>
         <Header />
       
         {children}

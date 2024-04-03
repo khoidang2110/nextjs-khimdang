@@ -24,34 +24,43 @@ export const projects: IProject []= [
             '/images/tag1/hinh51.jpg',
            
          ]
-      },
-    {
-      
+      }
+      ,
+      {
         id: 2,
         type:'commission',
-        title: "TREE TALKS",
-        link:'/commission',
+        title: "COCACOLA 2023",
+        link:'/archive',
         description:
           "",
-        image:[
-           '/images/tag2/hinh1.jpg',
       
-          
-        ]
-      },
+          image:[
+            '/images/tag2/hinh251.jpg',
+            '/images/tag2/hinh252.jpg',
+            '/images/tag2/hinh253.jpg',
+            '/images/tag2/hinh254.jpg',
+         
+      
+           
+           
+         ]
+      }
+      ,
       {
         id: 3,
         type:'commission',
-        title: "SMORE CHOLON",
-        link:'/commission',
+        title: "JAGERMEISTER 2023",
+        link:'/archive',
         description:
-          "",
-    
-          image:[
-            '/images/tag2/hinh21.jpg',
-          '/images/tag2/hinh22.jpg',
-          '/images/tag2/hinh23.jpg',
+          "Jagermeister Andree Right Hand x SMO",
       
+          image:[
+            '/images/tag2/hinh261.jpg',
+            '/images/tag2/hinh262.jpg',
+            '/images/tag2/hinh263.jpg',
+      
+      
+           
            
          ]
       },
@@ -525,44 +534,38 @@ export const projects: IProject []= [
            
            
          ]
-      }
-      ,
+      },
       {
+      
         id: 26,
         type:'commission',
-        title: "COCACOLA 2023",
-        link:'/archive',
+        title: "TREE TALKS",
+        link:'/commission',
         description:
           "",
-
-          image:[
-            '/images/tag2/hinh251.jpg',
-            '/images/tag2/hinh252.jpg',
-            '/images/tag2/hinh253.jpg',
-            '/images/tag2/hinh254.jpg',
-         
+        image:[
+           '/images/tag2/hinh1.jpg',
       
-           
-           
-         ]
-      }
-      ,
+          
+        ]
+      },
       {
         id: 27,
         type:'commission',
-        title: "JAGERMEISTER 2023",
-        link:'/archive',
+        title: "SMORE CHOLON",
+        link:'/commission',
         description:
-          "Jagermeister Andree Right Hand x SMO",
-
+          "",
+    
           image:[
-            '/images/tag2/hinh261.jpg',
-            '/images/tag2/hinh262.jpg',
-            '/images/tag2/hinh263.jpg',
-     
+            '/images/tag2/hinh21.jpg',
+          '/images/tag2/hinh22.jpg',
+          '/images/tag2/hinh23.jpg',
       
            
-           
          ]
-      }
+      },
+   
 ]
+
+

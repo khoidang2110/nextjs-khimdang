@@ -1,7 +1,7 @@
 const Footer: React.FC = () => {
     return (
-      <footer className="bg-white">
-        <p>&copy; {new Date().getFullYear()} Your Website</p>
+      <footer className="bg-white text-center">
+        <p>KhimDang Copyright ©️</p>
       </footer>
     );
   }
