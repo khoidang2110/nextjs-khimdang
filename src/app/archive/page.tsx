@@ -28,7 +28,7 @@ const currentAlbum = projects[Number(0)]
  
  
 
-        <GalleryList projects ={projects} filterType='exhibition'/>
+        <GalleryList projects ={projects} filterType='archive'/>
         
           
            </main>
