@@ -28,6 +28,7 @@
   backface-visibility: hidden;
   object-fit: cover;
   object-position: center;
+  pointer-events: none;
 }
 .imageAlbum{
   width: '600px';

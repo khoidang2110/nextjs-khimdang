@@ -80,9 +80,9 @@ console.log(windowWidth)
             <Link href="/about">ABOUT</Link>
           </li>
           <li
-            className={pathname == "/" ? styles.tabActive : styles.tabInActive}
+            className={pathname == "/commission" ? styles.tabActive : styles.tabInActive}
           >
-            <Link href="/">
+            <Link href="/commission">
             COMMISSION
             </Link>
           </li>

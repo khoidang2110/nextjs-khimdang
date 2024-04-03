@@ -68,7 +68,7 @@ const Menu: React.FC = () => {
 
           <div className={"pl-12 pt-12 " }>
             <div className="py-2.5 text-2xl font-medium">
-              <Link href={"/"} onClick={onClose} className="">
+              <Link href={"/commission"} onClick={onClose} className="">
               COMMISSION
               </Link>
             </div>
