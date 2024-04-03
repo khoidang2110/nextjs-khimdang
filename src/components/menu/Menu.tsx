@@ -7,10 +7,10 @@ import localFont from 'next/font/local'
 import styles from "./styles.module.css";
 
 
-// const myFont = localFont({
-//   src: '../../app/fonts/PretoriaRegular.ttf',
-//   display: 'swap',
-// })
+const myFont = localFont({
+  src: '../../app/fonts/RobotoBlack.ttf',
+  display: 'swap',
+})
 
 const Menu: React.FC = () => {
   const [open, setOpen] = useState(false);
@@ -66,7 +66,7 @@ const Menu: React.FC = () => {
         </button>
           </div>
 
-          <div className={"pl-12 pt-12 " }>
+          <div className={"pl-12 pt-12 " + myFont.className}>
             <div className="py-2.5 text-2xl font-medium">
               <Link href={"/commission"} onClick={onClose} className="">
               COMMISSION
