@@ -28,7 +28,7 @@
   backface-visibility: hidden;
   object-fit: cover;
   object-position: center;
-  pointer-events: none;
+
 }
 .imageAlbum{
   width: '600px';
@@ -48,6 +48,11 @@
   backface-visibility: hidden;
  
   
+}
+.imgDownload{
+  -webkit-user-select: none!important;
+  -webkit-touch-callout: none !important;
+  pointer-events: none;
 }
 
 .middle {
@@ -136,4 +141,5 @@
   font-weight: bold;
   /* padding: 16px 32px; */
 }
+
 }

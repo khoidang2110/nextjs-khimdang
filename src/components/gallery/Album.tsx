@@ -21,11 +21,11 @@ const Album: FC<PostListTypeSmallProps> = ({projects,direct}) => {
    
   <div key={index} className={direct ? `py-5 w-4/5` : styles.albumItem}>
   
-  <img src={image ?? NO_IMAGE} alt="Avatar" 
+  <img src={image ?? NO_IMAGE} alt="Avatar" className={styles.imgDownload}
   // className={direct? styles.imageDetail : styles.imageArchive }
   // style={direct? { width: '100%', height: 'auto' } : {height:'400px',width:'100%',padding:10 }}
   />
-  
+    
 
     </div>
 
