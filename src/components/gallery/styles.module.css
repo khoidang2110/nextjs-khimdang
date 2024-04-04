@@ -28,7 +28,9 @@
   backface-visibility: hidden;
   object-fit: cover;
   object-position: center;
-
+  -webkit-user-select: none!important;
+  -webkit-touch-callout: none !important;
+  pointer-events: none;
 }
 .imageAlbum{
   width: '600px';
