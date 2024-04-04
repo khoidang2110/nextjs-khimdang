@@ -59,7 +59,7 @@ const Menu: React.FC = () => {
           <Image
             width={25}
             height={25}
-            src="/disabled.png"
+            src="/close.png"
             alt="close"
             className="mx-3"
           />

@@ -5,16 +5,25 @@ import Link from "next/link";
 
 import { projects } from '@/mockup'
 import Album from '@/components/gallery/Album';
-
+import Image from "next/image";
 export default function Detail() {
   const params = useParams()
 console.log(params.id)
 const currentAlbum = projects[Number(params.id)-1]
   return (
     <section >
-       <Link href={currentAlbum.link} className="">
-      <p className='pl-10 ml-10 uppercase opacity-70'>{currentAlbum.type}   </p>
+      <div className='pl-7'>
+      <Link href={currentAlbum.link} className="">
+       <Image
+            width={35}
+            height={35}
+            src="/back.png"
+            alt="back"
+            className="mx-3"
+          />
        </Link>
+      </div>
+     
 
 
    
