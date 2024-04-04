@@ -19,7 +19,7 @@ export default function About() {
     <div  className="flex flex-col pl-5 pb-5">
       <h1 className="text-xl">CONTACT</h1>
       <p className="pl-6">khiimdang@gmail.com </p>
-      <a className=" underline underline-offset-1 pl-6" href="instagram.com/khimdangoff">{"@khimdangoff"}</a>
+      <a className=" underline underline-offset-1 pl-6" href="https://instagram.com/khimdangoff">{"@khimdangoff"}</a>
     </div>
       </div>
     </section>
