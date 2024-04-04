@@ -88,7 +88,7 @@ const Menu: React.FC = () => {
             </div>
             <div className="py-2.5 text-2xl font-medium">
               <Link href={"/about"} onClick={onClose} >
-              ABOUT
+              KHIMDANG
               </Link>
             </div>
           </div>

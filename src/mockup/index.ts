@@ -1,7 +1,7 @@
 import { IProject } from "@/interfaces/project";
 
 
-export const projects: IProject []= [
+export const projects: IProject [] = [
   
       {
         id: 1,
@@ -28,7 +28,7 @@ export const projects: IProject []= [
       ,
       {
         id: 2,
-        type:'commission',
+        type:'archive',
         title: "COCACOLA 2023",
         link:'/archive',
         description:
@@ -48,7 +48,7 @@ export const projects: IProject []= [
       ,
       {
         id: 3,
-        type:'commission',
+        type:'archive',
         title: "JAGERMEISTER 2023",
         link:'/archive',
         description:
@@ -63,17 +63,25 @@ export const projects: IProject []= [
            
            
          ]
-      },
+      }
+
+      ,
       {
         id: 4,
-        type:'commission',
-        title: "SILENCE SINGS",
-        link:'/commission',
+        type:'archive',
+        title: "SOUVENIR",
+        link:'/archive',
         description:
           "",
 
           image:[
-            '/images/tag2/hinh3.jpg',
+            '/images/tag2/hinh281.jpg',
+            '/images/tag2/hinh282.jpg',
+            '/images/tag2/hinh283.jpg',
+            '/images/tag2/hinh284.jpg',
+            '/images/tag2/hinh285.jpg',
+            '/images/tag2/hinh286.jpg',
+            '/images/tag2/hinh287.jpg',
         
          
            
@@ -81,30 +89,24 @@ export const projects: IProject []= [
       },
       {
         id: 5,
-        type:'commission',
-        title: "LIXI22",
-        link:'/commission',
+        type:'archive',
+        title: "VOIOMDAINGAN",
+        link:'/archive',
         description:
           "",
 
           image:[
-            '/images/tag2/hinh41.jpg',
-          '/images/tag2/hinh42.jpg',
-          '/images/tag2/hinh43.jpg',
-          '/images/tag2/hinh44.jpg',
-          '/images/tag2/hinh45.jpg',
-          '/images/tag2/hinh46.jpg',
-          '/images/tag2/hinh47.jpg',
-          '/images/tag2/hinh48.jpg',
-          '/images/tag2/hinh49.jpg',
-          '/images/tag2/hinh410.jpg',
-          '/images/tag2/hinh411.jpg',
-          '/images/tag2/hinh412.jpg',
-          '/images/tag2/hinh413.jpg',
-          '/images/tag2/hinh414.jpg'
+            '/images/tag2/hinh271.jpg',
+          '/images/tag2/hinh272.jpg',
+          '/images/tag2/hinh273.jpg',
+          '/images/tag2/hinh274.jpg',
+          '/images/tag2/hinh275.jpg',
+          
            
          ]
       }
+
+
       ,
       {
         id: 6,
@@ -565,6 +567,48 @@ export const projects: IProject []= [
            
          ]
       },
+      ,
+      {
+        id: 28,
+        type:'commission',
+        title: "SILENCE SINGS",
+        link:'/commission',
+        description:
+          "",
+
+          image:[
+            '/images/tag2/hinh3.jpg',
+        
+         
+           
+         ]
+      },
+      {
+        id: 29,
+        type:'commission',
+        title: "LIXI22",
+        link:'/commission',
+        description:
+          "",
+
+          image:[
+            '/images/tag2/hinh41.jpg',
+          '/images/tag2/hinh42.jpg',
+          '/images/tag2/hinh43.jpg',
+          '/images/tag2/hinh44.jpg',
+          '/images/tag2/hinh45.jpg',
+          '/images/tag2/hinh46.jpg',
+          '/images/tag2/hinh47.jpg',
+          '/images/tag2/hinh48.jpg',
+          '/images/tag2/hinh49.jpg',
+          '/images/tag2/hinh410.jpg',
+          '/images/tag2/hinh411.jpg',
+          '/images/tag2/hinh412.jpg',
+          '/images/tag2/hinh413.jpg',
+          '/images/tag2/hinh414.jpg'
+           
+         ]
+      }
    
 ]
 
