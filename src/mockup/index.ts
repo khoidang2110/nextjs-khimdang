@@ -567,7 +567,7 @@ export const projects: IProject [] = [
            
          ]
       },
-      ,
+      
       {
         id: 28,
         type:'commission',
