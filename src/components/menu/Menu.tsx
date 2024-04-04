@@ -59,7 +59,7 @@ const Menu: React.FC = () => {
           <Image
             width={25}
             height={25}
-            src="/close.png"
+            src="/x.png"
             alt="close"
             className="mx-3"
           />
