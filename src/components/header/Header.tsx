@@ -55,11 +55,13 @@ console.log(windowWidth)
       </div>: ""}
 <div className="flex justify-center py-5">
 {windowWidth < 900 ? <Image
+className={styles.imgDownload}
         width={100}
         height={100}
         src='/images/tag2/landlogo.png'
         alt='aboutT'
         /> : <Image
+        className={styles.imgDownload}
         width={200}
         height={200}
         src='/images/tag2/landlogo.png'

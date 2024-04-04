@@ -9,7 +9,11 @@
   left: -150px;
   top: 20px;
 }
-
+.imgDownload{
+  -webkit-user-select: none!important;
+  -webkit-touch-callout: none !important;
+  pointer-events: none;
+}
 .logoContainer{
   position: static;
     height: 64px;
