@@ -619,8 +619,8 @@ export const projects: IProject [] = [
           "",
 
           image:[
-            '/images/tag2/hinh291.jpg',
-            '/images/tag2/hinh292.jpg',
+            '/images/tag2/hinh291.JPG',
+            '/images/tag2/hinh292.JPG',
             '/images/tag2/hinh293.jpg',
             '/images/tag2/hinh294.jpg',
             '/images/tag2/hinh295.jpg',
