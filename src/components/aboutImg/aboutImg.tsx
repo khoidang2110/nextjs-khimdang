@@ -2,14 +2,9 @@ import Image from "next/image";
 
 const AboutImg: React.FC = () => {
     return (
-      <section className="bg-white">
-        <Image
-        width={1000}
-        height={600}
-        src='/images/tag2/about.jpg'
-        alt='aboutT'
-        />
-              {/* <img src='/images/about.jpg' alt="about" style={{width: '1000px'}} /> */}
+      <section className="bg-white max-w-full overflow-hidden">
+   
+              <img src='/images/tag2/about3.png' alt="about" style={{width: '100%',height:'auto'}} />
       </section>
     );
   }

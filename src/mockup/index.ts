@@ -28,9 +28,9 @@ export const projects: IProject [] = [
       ,
       {
         id: 2,
-        type:'archive',
+        type:'commission',
         title: "COCACOLA 2023",
-        link:'/archive',
+        link:'/commission',
         description:
           "",
       
@@ -48,9 +48,9 @@ export const projects: IProject [] = [
       ,
       {
         id: 3,
-        type:'archive',
+        type:'commission',
         title: "JAGERMEISTER 2023",
-        link:'/archive',
+        link:'/commission',
         description:
           "Jagermeister Andree Right Hand x SMO",
       
@@ -606,6 +606,28 @@ export const projects: IProject [] = [
           '/images/tag2/hinh412.jpg',
           '/images/tag2/hinh413.jpg',
           '/images/tag2/hinh414.jpg'
+           
+         ]
+      }
+      ,
+      {
+        id: 30,
+        type:'archive',
+        title: "SUMMER24",
+        link:'/archive',
+        description:
+          "",
+
+          image:[
+            '/images/tag2/hinh291.jpg',
+            '/images/tag2/hinh292.jpg',
+            '/images/tag2/hinh293.png',
+            '/images/tag2/hinh294.png',
+            '/images/tag2/hinh295.png',
+            '/images/tag2/hinh296.png',
+            '/images/tag2/hinh297.png',
+            '/images/tag2/hinh298.png',
+            '/images/tag2/hinh299.png',
            
          ]
       }
