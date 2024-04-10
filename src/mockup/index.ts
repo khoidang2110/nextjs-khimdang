@@ -621,13 +621,13 @@ export const projects: IProject [] = [
           image:[
             '/images/tag2/hinh291.jpg',
             '/images/tag2/hinh292.jpg',
-            '/images/tag2/hinh293.png',
-            '/images/tag2/hinh294.png',
-            '/images/tag2/hinh295.png',
-            '/images/tag2/hinh296.png',
-            '/images/tag2/hinh297.png',
-            '/images/tag2/hinh298.png',
-            '/images/tag2/hinh299.png',
+            '/images/tag2/hinh293.jpg',
+            '/images/tag2/hinh294.jpg',
+            '/images/tag2/hinh295.jpg',
+            '/images/tag2/hinh296.jpg',
+            '/images/tag2/hinh297.jpg',
+            '/images/tag2/hinh298.jpg',
+            '/images/tag2/hinh299.jpg',
            
          ]
       }
