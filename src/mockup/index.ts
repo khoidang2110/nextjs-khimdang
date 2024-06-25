@@ -631,7 +631,23 @@ export const projects: IProject [] = [
            
          ]
       }
-   
+      ,
+      {
+        id: 31,
+        type:'archive',
+        title: "SAIGON-HANOI-VIETNAM",
+        link:'/archive',
+        description:
+          "",
+
+          image:[
+            '/images/tag2/hinh301.png',
+            '/images/tag2/hinh302.png',
+            '/images/tag2/hinh303.png',
+            '/images/tag2/hinh304.png',
+       
+         ]
+      }
 ]
 
 
